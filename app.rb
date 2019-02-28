@@ -28,4 +28,5 @@ class App < Sinatra::Base
   when operation = "add"
     "#{num1} + #{num2}"
   end
+  end
 end
