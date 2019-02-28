@@ -25,15 +25,5 @@ class App < Sinatra::Base
     num1 = params[:number1]
     num2 = params[:number2]
     operation = params[:operation]
-  if operation == "add"
-    eval"#{num1} + #{num2}"
-
-  elsif operation == "subtract"
-    "#{num1}" - "#{num2}"
-  elsif operation == "multiply"
-    "#{num1}" * "#{num2}"
-  elsif operation == "divide"
-    "#{num1}" / "{num2}"
   end
-end
 end
