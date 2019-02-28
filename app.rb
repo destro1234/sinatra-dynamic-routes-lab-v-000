@@ -27,8 +27,8 @@ class App < Sinatra::Base
 
     operation = params[:operation]
 
-    case operation
-    when "add"
+    
+    if operation == "add"
       "#{num1 + num2}"
     end
 
