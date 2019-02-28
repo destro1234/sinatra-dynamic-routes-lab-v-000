@@ -28,5 +28,8 @@ class App < Sinatra::Base
   if operation == "add"
     eval"#{num1} + #{num2}"
   end
+
+elsif operation == "subtract"
+  eval"#{num1} - #{num2}"
   end
 end
