@@ -29,11 +29,11 @@ class App < Sinatra::Base
     eval"#{num1} + #{num2}"
 
   elsif operation == "subtract"
-    eval"#{num1} - #{num2}"
+    eval"#{num1} - #{num2}".to_s
   elsif operation == "multiply"
-    eval"#{num1} * #{num2}"
+    eval"#{num1} * #{num2}".to_s
   elsif operation == "divide"
-    eval"#{num1}/#{num2}"
+    eval"#{num1}/#{num2}".to_s
   end
 end
 end
