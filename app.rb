@@ -30,6 +30,8 @@ class App < Sinatra::Base
 
   elsif operation == "subtract"
     eval"#{num1} - #{num2}"
+  elsif operation == "multiply"
+    eval"#{num1} * #{num2}"
   end
 end
 end
