@@ -27,9 +27,9 @@ class App < Sinatra::Base
     operation = params[:operation]
   if operation == "add"
     eval"#{num1} + #{num2}"
-  end
 
-elsif operation == "subtract"
-  eval"#{num1} - #{num2}"
+  elsif operation == "subtract"
+    eval"#{num1} - #{num2}"
   end
+end
 end
