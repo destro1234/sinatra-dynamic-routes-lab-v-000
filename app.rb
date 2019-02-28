@@ -31,6 +31,6 @@ class App < Sinatra::Base
     when "add"
       "#{num1}" + "#{num2}"
     end
-    
+
   end
 end
